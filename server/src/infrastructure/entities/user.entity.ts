@@ -21,6 +21,6 @@ export class User {
   @Column({ nullable: true })
   last_login?: Date;
 
-  @Column('varchar', { nullable: true })
+  @Column('int', { nullable: true })
   hach_refresh_token: string;
 }
